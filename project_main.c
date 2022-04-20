@@ -1,7 +1,7 @@
 #include <avr/io.h>
 #include <util/delay.h>
 #include "GPIO.h"
-#include "ADC.h"
+#include "Analog_Sensor.h"
 #include "PWM.h"
 #include "UART.h"
 
