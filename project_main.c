@@ -17,7 +17,7 @@ int main()
     while(1)
     {
         ///Check for switch status and turn on/off the LED
-	    if(Seat_Status == 1 && Switch_Status == 1)
+	    if(Seat_Check == 1 && Switch_Check == 1)
         {
             PORTB |= (1 << PB0);
             LED = 1;
