@@ -1,4 +1,4 @@
-PROJ_NAME = Seat_Heat_Controller
+PROJ_NAME = Automatic_Car_Seat_Warmer
 
 BUILD_DIR = Build
 
