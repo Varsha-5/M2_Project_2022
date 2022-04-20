@@ -11,7 +11,7 @@ int main()
 	int LED = 0;
 
     ///Call initializing functions
-	InitADC();
+	InitAnalog_Sensor();
         Led_Actuator();
 
     while(1)
@@ -29,7 +29,7 @@ int main()
 
         if(LED == 1)
         {
-            temp = PWM(Read_ADC(0));          ///<Read ADC input and generate appropriate PWM output
+            temp = PWM(Read_Analog_Sensor(0));          ///<Read ADC input and generate appropriate PWM output
             USARTWriteChar(temp);            ///<Write temperature value to serial monitor
             _delay_ms(200);
         }
